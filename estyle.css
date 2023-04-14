@@ -103,7 +103,7 @@ nav ul li ul li a {
 .two-columns {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10%;
+  margin: 5% 0; 
 }
 
 .column-80 {
@@ -146,6 +146,7 @@ nav ul li ul li a {
 }
 
 .contenedor-hijo {
+  margin-left: 15%;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
