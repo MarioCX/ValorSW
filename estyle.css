@@ -10,25 +10,25 @@ header img {
 }
 
 /* Estilos del encabezado */
-header {
+/* header {
   background-color: #ffffff;
   padding: 20px 0;
-}
+} */
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: 500;
   box-shadow: 2px 2px 3px grey;
-}
+} */
 
 .arrow {
   display: inline-block;
   margin-left: 5px;
 }
 
-nav ul {
+/* nav ul {
   display: flex;
   list-style: none;
   margin: 0 200px 0 0;
@@ -40,18 +40,18 @@ nav ul li {
   position: relative;
   margin-left: 20px;
 }
-
-nav ul li:first-child {
+ */
+/* nav ul li:first-child {
   margin-left: 0;
-}
+} */
 
-nav ul li a {
+/* nav ul li a {
   color: grey;
   text-decoration: none;
   padding: 10px;
 }
-
-nav ul li:hover {
+ */
+/* nav ul li:hover {
   background-color: #ffffff;
 }
 
@@ -59,19 +59,19 @@ nav ul li:hover {
 nav ul li:hover a {
   color: #7A3F91;
   font-size: 20px;
-}
+} */
 
 
-nav ul li:hover ul {
+/* nav ul li:hover ul {
   display: block;
   width: 150px;
   height: auto;
   text-align: left;
   font-size: 18px;
 
-}
+} */
 
-nav ul li ul {
+/* nav ul li ul {
   display: none;
   position: absolute;
   top: 100%;
@@ -81,33 +81,33 @@ nav ul li ul {
   border-radius: 5%;
   border: 1px solid rgb(212, 212, 212);
   box-shadow: 2px 2px 4px grey;
-}
+} */
 
-nav ul li a img {
+/* nav ul li a img {
   width: 10px;
   height: 6px;
   margin: 0 auto;
   border: solid transparent;
-}
-
+} */
+/* 
 nav ul li ul li {
   display: block;
   margin: 5px 0;
-}
+} */
 
-nav ul li ul li a {
+/* nav ul li ul li a {
   color: #333;
   text-decoration: none;
   font-size: 16px;
-}
+} */
 
-.logo {
+/* .logo {
   margin-left: 50px;
 }
 
 .logo img {
   height: 60px;
-}
+} */
 
 .two-columns {
   display: flex;
