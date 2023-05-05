@@ -11,7 +11,7 @@ body {
   width: 100%;
 }
 
-/* Header */
+/* Header
 header {
   width: 100%;
 }
@@ -116,6 +116,21 @@ nav ul li ul li a {
 .arrow {
   display: inline-block;
   margin-left: 5px;
+} */
+
+#logoH {
+  height: auto;
+  width: 200px;
+}
+nav {
+  box-shadow: 2px 2px 3px grey;
+}
+
+.nav-link:hover {
+  color: #7a3f91;
+}
+.dropdown-item:hover {
+  color: #7a3f91;
 }
 
 /* Dos columnas */
@@ -146,7 +161,7 @@ nav ul li ul li a {
 
 .subtitle_age {
   margin: 15px 0;
-  color: #41A6D7;
+  color: #41a6d7;
   font-weight: 500;
 }
 
@@ -171,19 +186,18 @@ nav ul li ul li a {
 .cambiate-b {
   margin-top: 50px;
   color: white;
-  background-color: #7A3F91;
+  background-color: #7a3f91;
   width: 300px;
   height: 70px;
   border: 0;
   border-radius: 10px;
-
 }
 
 .cambiate-b:hover {
-  background-color: #41A6D7;
+  background-color: #41a6d7;
   width: 60%;
   height: 80px;
-  transition: .5s;
+  transition: 0.5s;
   font-size: 1em;
 }
 
@@ -224,7 +238,7 @@ nav ul li ul li a {
 }
 
 .title {
-  color: #7A3F91;
+  color: #7a3f91;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -245,7 +259,7 @@ nav ul li ul li a {
 }
 
 .box h2 a {
-  color: #557ABC;
+  color: #557abc;
 }
 
 .box p {
@@ -295,7 +309,6 @@ nav ul li ul li a {
   align-items: center;
   justify-content: center;
   display: flex;
-
 }
 
 .img-mision img {
@@ -305,18 +318,17 @@ nav ul li ul li a {
 
 .text-vision {
   padding: 10px 10px 0 60px;
-
 }
 
 .text-vision h1 {
-  color: #7A3F91;
+  color: #7a3f91;
   font-size: 30px;
   margin-bottom: 10px;
 }
 
 .text-vision p {
   color: rgb(63, 63, 63);
-  font-size: .6em;
+  font-size: 0.6em;
   font-weight: 100;
   line-height: 25px;
 }
@@ -405,7 +417,6 @@ footer {
   color: #7a3f91;
 }
 
-
 /* Contenedor de botones flotantes */
 .button-container {
   position: fixed;
@@ -438,7 +449,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-
   /* Header */
   .logo {
     margin-left: 0;

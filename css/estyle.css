@@ -11,7 +11,7 @@ body {
   width: 100%;
 }
 
-/* Header */
+/* Header
 header {
   width: 100%;
 }
@@ -57,86 +57,36 @@ nav ul li:first-child {
   margin-left: 0;
 }
 
-nav ul li a {
-  color: grey;
-  text-decoration: none;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 nav ul li:hover {
   background-color: #ffffff;
 }
 
-nav ul li:hover a {
-  color: #7A3F91;
-  font-size: 20px;
-}
+
 
 nav ul li:hover ul {
   display: block;
-  width: 150px;
+  width: 200px;
   height: auto;
-  border: solid black;
   align-items: center;
   text-align: left;
+} */
+
+#logoH {
+  height: auto;
+  width: 200px;
+}
+nav {
+  box-shadow: 2px 2px 3px grey;
 }
 
-#telefonia {
-  color: black;
-  font-size: 16px;
-  text-align: left;
+.nav-link:hover {
+  color: #7a3f91;
 }
-#telefonia:hover{
-  color: #7A3F91;
-  font-size: 18px;
-
+.dropdown-item:hover {
+  color: #7a3f91;
 }
-
-nav ul li ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5%;
-  border: 1px solid rgb(212, 212, 212);
-  box-shadow: 2px 2px 4px grey;
-}
-
-nav ul li a svg {
-  width: 40px;
-  height: 20px;
-  margin-right: 0;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2px;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-
-.app-nav {
-  margin-left: 0;
-}
-
-nav ul li ul li {
-  display: block;
-  margin: 5px 0;
-}
-
-nav ul li ul li a {
-  color: #333;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-/* .arrow {
-  display: inline-block;
-  margin-left: 5px;
-}  */
 
 /* Contenedor con imagen static */
 .two-columns {
@@ -151,7 +101,6 @@ nav ul li ul li a {
 
 .column-80 {
   width: 100%;
-  font-size: 2em;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -168,7 +117,7 @@ nav ul li ul li a {
 }
 
 .valor span:nth-child(1) {
-  color: #7A3F91;
+  color: #7a3f91;
 }
 
 .valor span:nth-child(2) {
@@ -176,11 +125,11 @@ nav ul li ul li a {
 }
 
 .valor span:nth-child(3) {
-  color: #557ABC;
+  color: #557abc;
 }
 
 .valor span:nth-child(4) {
-  color: #41A6D7;
+  color: #41a6d7;
 }
 
 .column-20 {
@@ -284,7 +233,7 @@ footer {
 
 .social-btns a {
   margin: 0 10px;
-  color: #7A3F91;
+  color: #7a3f91;
 }
 
 .column {
@@ -357,65 +306,69 @@ footer {
   background-color: transparent;
 }
 
-
 @media (max-width: 768px) {
-  .logo {
-    margin-left: 0;
-  }
+  /* .logo {
+      margin-left: 0;
+    }
 
-  nav {
-    flex-direction: column;
-  }
+    nav {
+      flex-direction: column;
+    }
 
-  nav ul {
-    display: flex;
-    list-style: none;
-    font-size: 12px;
-    margin: 0 auto;
-    text-align: center;
-  }
+    nav ul {
+      display: flex;
+      list-style: none;
+      font-size: 12px;
+      margin: 0 auto;
+      text-align: center;
+    }
 
-  nav ul li {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  .product-span {
-    margin: 0;
-    width: 90px;
-    margin-left: 10px;
-  }
-  nav ul li a span svg {
-    width: 35px;
-    height: 15px;
-    margin-right: 0;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    
-  }
+    nav ul li {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .product-span {
+      margin: 0;
+      width: 90px;
+      margin-left: 10px;
+    }
+    nav ul li a span svg {
+      width: 35px;
+      height: 15px;
+      margin-right: 0;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      
+    }
 
-  .app-nav {
-    margin-left: 0;
-  }
+    .app-nav {
+      margin-left: 0;
+    }
 
-  nav ul li ul {
-    position: static;
-    display: none;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
+    nav ul li ul {
+      position: static;
+      display: none;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
 
-  nav ul li:hover a {
-    color: #7A3F91;
-    font-size: 12px;
-  }
+    nav ul li:hover a {
+      color: #7A3F91;
+      font-size: 12px;
+    }
 
-  nav ul li:hover ul {
-    display: fixed;
+    nav ul li:hover ul {
+      display: fixed;
+    } */
+
+  #logoH {
+    height: auto;
+    width: 150px;
   }
 
   .two-columns {
@@ -497,5 +450,4 @@ footer {
   .column:last-child {
     margin-bottom: 1px;
   }
-
 }
