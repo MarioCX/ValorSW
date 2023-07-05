@@ -117,7 +117,9 @@ nav ul li ul li a {
   display: inline-block;
   margin-left: 5px;
 } */
-
+.offcanvas-body {
+  color: #7a3f91;
+}
 #logoH {
   height: auto;
   width: 200px;
@@ -350,7 +352,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
-
+.social-btns a svg {
+  color: #7a3f91;
+}
 .logo-footer {
   height: 80px;
   width: auto;
@@ -449,73 +453,57 @@ footer {
 }
 
 @media (max-width: 768px) {
-  /* Header */
-  .logo {
-    margin-left: 0;
-  }
-
-  nav {
-    flex-direction: column;
-  }
-
-  nav ul {
-    display: flex;
-    list-style: none;
-    font-size: 12px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  nav ul li {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  nav ul li ul {
-    position: static;
-    display: none;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
-
-  nav ul li:hover a {
-    color: #7a3f91;
-    font-size: 12px;
-  }
-
-  nav ul li:hover ul {
-    display: fixed;
+  #logoH {
+    height: auto;
+    width: 150px;
   }
 
   /* Header */
 
   .two-columns {
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    height: 1100px;
   }
 
   .column-80 {
-    width: 60%;
-    font-size: 2em;
-    font-weight: bold;
-    display: flex;
+    margin-top: 10px;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     text-align: center;
-    line-height: 200px;
-    /* altura del contenedor */
+    line-height: 50px;
   }
 
   .column-20 {
-    width: 40%;
+    width: 100vw;
     display: inline;
     align-items: center;
     justify-content: center;
     text-align: left;
   }
-
+  .column-img {
+    width: 100vw;
+    height: auto;
+  }
+  .nuestros-servicios {
+    padding: 10px;
+    display: block;
+    height: 600px;
+  }
+  .left-column {
+    display: none;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .right-column {
+    margin: auto;
+  }
+  .mision {
+    display: none;
+  }
   /* Footer */
   footer {
     background-color: #eee;
@@ -550,7 +538,11 @@ footer {
     justify-content: center;
     text-align: center;
   }
-
+  .column iframe {
+    height: 450px;
+    overflow: hidden;
+    padding: 0;
+  }
   .column:last-child {
     margin-bottom: 1px;
   }
