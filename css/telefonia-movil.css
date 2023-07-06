@@ -64,7 +64,7 @@ nav {
 }
 .carousel-inner {
   margin: auto;
-  width: 450px;
+  width: 400px;
 }
 .d-block {
   height: auto;
@@ -105,19 +105,26 @@ nav {
   color: #973884;
 }
 .validacion {
+  height: 80vh;
+  background-color: #557abc;
+  padding: 50px;
+}
+.imgPaquetesActivacion {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+}
+.imgPaquetesActivacion img {
+  width: 20%;
+  margin: 10px;
+}
+.accordion {
   text-align: center;
-  background-color: #557abc;
 }
 .infoAdicional {
-  height: 50vh;
-  border: solid black;
+  height: 30vh;
 }
 .consulta {
-  border: solid grey;
   display: flex;
   justify-content: center;
 }
@@ -130,14 +137,17 @@ nav {
 .consulta li {
   border-left: solid 5px #7a3f91;
 }
-.consulta ul li a {
+.consulta ul li h5 {
   background-color: rgba(128, 128, 128, 0.217);
-  font-size: 2em;
+  font-size: 1.8em;
   padding: 10px;
 }
 .textPolitica {
   color: #557abc;
-
+}
+.aqui {
+  color: #7a3f91;
+  margin: 0;
 }
 /* Footer */
 footer {
