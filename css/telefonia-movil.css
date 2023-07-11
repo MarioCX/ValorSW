@@ -44,6 +44,7 @@ nav {
 .encabezado {
   color: #7a3f91;
   font-weight: bold;
+  margin-left: 10px;
 }
 .sliderContainer {
   height: 80%;

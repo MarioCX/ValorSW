@@ -83,7 +83,7 @@ nav ul li:hover ul {
 }
 .btn:hover {
   color: white;
-  background-color:#557abc;
+  background-color: #557abc;
 }
 #logoH {
   height: auto;
@@ -118,7 +118,7 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
-  
+
   /* altura del contenedor */
 }
 
@@ -201,14 +201,93 @@ nav {
   width: auto;
   height: 100%;
   overflow: hidden;
-  margin: 2%;
+  margin: 10px;
 }
-
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .slide2 img {
   height: auto;
-  max-width: 100%;
+  max-width: 80%;
+  margin-top: 20px;
 }
-
+.consultaSaldoContainer {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.consultaSaldo {
+  width: 85%;
+  height: 200px;
+  background-color: #7a3f91;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consultaSaldo h2 {
+  font-weight: bold;
+  font-size: 2.1em;
+  line-height: 200%;
+}
+.consultaSaldo h2 span {
+  color: #41a6d7;
+}
+.infoAdicional {
+  height: 30vh;
+}
+.consulta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.consulta ul {
+  width: 80%;
+  color: rgb(134, 134, 134);
+}
+.consulta li {
+  border-left: solid 5px #7a3f91;
+}
+.consulta ul li h5 {
+  background-color: rgba(182, 182, 182, 0.217);
+  font-size: 2.1em;
+  padding: 10px;
+}
+.consulta a {
+  text-decoration: none;
+}
+.textValor {
+  text-align: center;
+  font-size: 2em;
+  padding: 10px;
+  color: rgb(134, 134, 134);
+  text-decoration: underline 3px #7a3f91;
+}
+.textPolitica {
+  color: #557abc;
+  font-weight: bold;
+}
+.aqui {
+  color: #7a3f91;
+  margin: 0;
+}
+.textValorTe {
+  color: #557abc;
+}
+.textValorLe {
+  color: #41a6d7;
+}
+.textValorCo {
+  color: #7a3f91;
+}
+.textValorM {
+  color: #973884;
+}
 /* Footer */
 footer {
   background-color: #eee;
