@@ -288,6 +288,11 @@ nav {
 .textValorM {
   color: #973884;
 }
+.imgContainerPorta {
+  border: solid red;
+}
+
+
 /* Footer */
 footer {
   background-color: #eee;
