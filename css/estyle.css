@@ -403,65 +403,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  /* .logo {
-      margin-left: 0;
-    }
-
-    nav {
-      flex-direction: column;
-    }
-
-    nav ul {
-      display: flex;
-      list-style: none;
-      font-size: 12px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    nav ul li {
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-    }
-    .product-span {
-      margin: 0;
-      width: 90px;
-      margin-left: 10px;
-    }
-    nav ul li a span svg {
-      width: 35px;
-      height: 15px;
-      margin-right: 0;
-      fill: none;
-      stroke: currentColor;
-      stroke-width: 2px;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      
-    }
-
-    .app-nav {
-      margin-left: 0;
-    }
-
-    nav ul li ul {
-      position: static;
-      display: none;
-      margin-left: 10px;
-      margin-top: 10px;
-    }
-
-    nav ul li:hover a {
-      color: #7A3F91;
-      font-size: 12px;
-    }
-
-    nav ul li:hover ul {
-      display: fixed;
-    } */
-
+  
   #logoH {
     height: auto;
     width: 150px;
@@ -552,4 +494,78 @@ footer {
   .column:last-child {
     margin-bottom: 1px;
   }
+  .consultaSaldoContainer {
+  }
+  .consultaSaldo {
+    width: 85%;
+    height: 100px;
+    background-color: #7a3f91;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .consultaSaldo h2 {
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  .consultaSaldo h2 span {
+    color: #41a6d7;
+  }
+  .infoAdicional {
+    height: 40vh;
+  }
+  .consulta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .consulta ul {
+    width: 80%;
+    color: rgb(134, 134, 134);
+  }
+  .consulta li {
+    border-left: solid 5px #7a3f91;
+  }
+  .consulta ul li h5 {
+    background-color: rgba(182, 182, 182, 0.217);
+    font-size: 0.9em;
+    padding: 10px;
+  }
+  .consulta a {
+    text-decoration: none;
+  }
+  .textValor {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    color: rgb(134, 134, 134);
+    text-decoration: underline 3px #7a3f91;
+  }
+  .textPolitica {
+    color: #557abc;
+    font-weight: bold;
+  }
+  .aqui {
+    color: #7a3f91;
+    margin: 0;
+  }
+  .textValorTe {
+    color: #557abc;
+  }
+  .textValorLe {
+    color: #41a6d7;
+  }
+  .textValorCo {
+    color: #7a3f91;
+  }
+  .textValorM {
+    color: #973884;
+  }
+  .imgContainerPorta {
+    border: solid red;
+  }
+  
 }
