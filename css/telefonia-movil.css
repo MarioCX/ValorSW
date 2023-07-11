@@ -64,8 +64,12 @@ nav {
   width: 40%;
 }
 .carousel-inner {
-  margin: auto;
-  width: 400px;
+  height: 90%;
+  width: 60%;
+  margin: 0 auto;
+}
+.carousel-inner img { 
+  margin: 0 auto;
 }
 .d-block {
   height: auto;
@@ -106,9 +110,8 @@ nav {
   color: #973884;
 }
 .validacion {
-  height: 80vh;
   background-color: #557abc;
-  padding: 50px;
+  padding: 10px;
 }
 .imgPaquetesActivacion {
   display: flex;

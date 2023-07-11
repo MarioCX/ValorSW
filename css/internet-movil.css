@@ -67,7 +67,7 @@ nav {
   font-weight: bold;
 }
 .descripPrincipal h3 {
-  margin-top: 40px;
+  margin-top: 1%;
 }
 .descripPrincipal h4 {
   margin-top: 10px;
@@ -155,15 +155,16 @@ nav {
   margin: 0;
 }
 .infoAd {
-  margin: 60px 0 0 10px;
-  height: 60vh;
+  margin: 10px 0;
+  width: 100%;
+  height: 90vh;
   text-align: center;
   font-weight: bold;
   color: rgb(71, 70, 70);
 }
 .infoAd h2 {
   font-size: 2.3em;
-  margin: 30px 0;
+  margin: 1% 0;
 }
 #paquetesRecarga {
   color: #7a3f91;
@@ -177,7 +178,7 @@ nav {
 .restricciones {
   width: 80vw;
   text-align: left;
-  margin: 100px auto;
+  margin: 10% auto;
 }
 .restricciones h5 {
   font-size: 0.9em;
