@@ -106,3 +106,50 @@ footer {
 .column ul li a:hover {
   color: #7a3f91;
 }
+@media (max-width: 768px) {
+  /* Header */
+  .logo {
+    margin-left: 0;
+  }
+  .btn {
+    width: 40vw;
+    height: 40px;
+    margin-left: 5px;
+  }
+  /*  */
+  
+  /* Footer */
+  footer {
+    background-color: #eee;
+    padding: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .logo-footer {
+    height: 60px;
+    width: auto;
+  }
+  .column1 {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .column1 p {
+    margin-top: 10px;
+  }
+  .column {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .column:last-child {
+    margin-bottom: 1px;
+  }
+}

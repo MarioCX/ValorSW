@@ -369,7 +369,11 @@ footer {
     height: auto;
     width: 150px;
   }
-
+  .btn {
+    width: 40vw;
+    height: 40px;
+    margin-left: 5px;
+  }
   /* Header */
 
   .two-columns {

@@ -10,7 +10,9 @@ body {
   font-family: Arial, sans-serif;
   width: 100%;
 }
-
+#offcanvasTopLabel {
+  font-size: 0.9em;
+} 
 .offcanvas-body {
   color: #7a3f91;
 }
@@ -20,7 +22,7 @@ body {
   color: white;
   background-color: #7a3f91;
 }
-.btn:hover {
+.btn::selection {
   color: white;
   background-color: #557abc;
 }
@@ -250,4 +252,97 @@ footer {
   border-radius: 50%;
   text-decoration: none;
   box-shadow: 2px 2px 4px grey;
+}
+@media (max-width: 768px) {
+  /* Header */
+  .logo {
+    margin-left: 0;
+  }
+  /*  */
+  .btn {
+    width: 40vw;
+    height: 40px;
+    margin-left: 5px;
+  }
+  .paquetes {
+    height: auto;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .encabezado {
+    width: 100%;
+    text-align: center;
+  }
+  .sliderContainer {
+    display: block;
+    width: 100%;
+  }
+ .imgPaquetes {
+  height: 30vh;
+  margin: 0 20%;
+ } 
+ #carouselExampleDark {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+ }
+ .textContainer {
+  width: 100%;
+  text-align: center;
+ }
+ .imgPaquetesActivacion img {
+  width: 40%;
+  margin: 1px;
+}
+.infoAdicional {
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.consulta {
+  display: flex;
+  justify-content: center;
+}
+.consulta ul {
+  width: 90%;  
+}
+
+.consulta ul li h5 {
+  font-size: 0.9em;
+}
+  /* Footer */
+  footer {
+    background-color: #eee;
+    padding: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .logo-footer {
+    height: 60px;
+    width: auto;
+  }
+  .column1 {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .column1 p {
+    margin-top: 10px;
+  }
+  .column {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .column:last-child {
+    margin-bottom: 1px;
+  }
 }

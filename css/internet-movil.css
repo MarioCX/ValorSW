@@ -73,11 +73,11 @@ nav {
   margin-top: 10px;
 }
 #buttonWhatsApp {
-  margin-top: 20px;
+  margin-top: 1%;
   text-decoration: underline;
   font-size: 1.5em;
-  width: 350px;
-  height: 80px;
+  width: 60%;
+  height: 20%;
 }
 #valorTelecom {
   font-weight: bold;
@@ -269,53 +269,116 @@ footer {
     height: auto;
     width: 150px;
   }
-  .carousel-indicators {
-    display: none;
+  .btn {
+    width: 40vw;
+    height: 40px;
+    margin-left: 5px;
   }
-
-  .two-columns {
+  .principal {
     display: flex;
-    margin: 0 auto;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
+    height: 25vh;
+    width: 100vw;
+    background-image: url(../assets/Recursos/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
-
-  .column-80 {
-    width: 100%;
+  .imagePrincipal {
+    height: 100%;
+    width: 50%;
+    margin-left: 0;
+  }
+  .imagePrincipal img {
+    height: 100%;
+    margin: 0;
+  }
+  .descripPrincipal {
+    margin-right: 1%;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+  }
+  .descripPrincipal h2 {
     font-weight: bold;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    height: 100px;
-    overflow: hidden;
-    /* altura del contenedor */
+    font-size: 0.7em;
   }
-
-  .valor {
-    font-size: 28px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    text-shadow: 2px 2px 4px grey;
+  .descripPrincipal h3 {
+    margin-top: 1%;
+    font-size: 0.7em;
   }
-
-  .column-20 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  .descripPrincipal h4 {
+    margin-top: 10px;
+    font-size: 0.7em;
   }
-
+  #buttonWhatsApp {
+    margin-top: 1%;
+    text-decoration: underline;
+    font-size: 0.7em;
+    width: 60%;
+    height: 20%;
+  }
+  #valorTelecom {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(93, 92, 92);
+  }
+  .textValorTe {
+    color: #557abc;
+  }
+  .textValorLe {
+    color: #41a6d7;
+  }
+  .textValorCo {
+    color: #7a3f91;
+  }
+  .textValorM {
+    color: #973884;
+  }
   .button {
     height: 70px;
     width: 70px;
   }
-
-  .button img {
-    width: 70px;
-    height: auto;
-    border-radius: 50%;
+  .secondary {
+    text-align: center;
+  }
+  .secondary h2 {
+    color: rgb(71, 70, 70);
+    margin: 50px 0;
+    font-weight: lighter;
+    font-size: 1.5em;
+  }
+  .secondary img {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .imgPaquetesContainer {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .imgPaquetesContainer img {
+    width: 25%;
+    margin: 0 10px;
+    border: solid #7a3f91;
+    border-radius: 5px;
+  }
+  .consulta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+  .consulta ul {
+    width: 90%;
+    color: rgb(71, 70, 70);
+  }
+  .consulta ul li h5 {
+    background-color: rgba(128, 128, 128, 0.217);
+    font-size: 0.9em;
+    padding: 5px;
   }
 
   footer {
@@ -354,5 +417,45 @@ footer {
 
   .column:last-child {
     margin-bottom: 1px;
+  }
+  .infoAd {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    height: 60vh;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(71, 70, 70);
+  }
+  .infoAd h2 {
+    font-size: 1.3em;
+    margin: 1% 0;
+  }
+  .infoAd h3 {
+    font-size: 0.9em;
+  }
+  .infoAd h4 {
+    font-size: 0.9em;
+  }
+  .consulta h2 {
+    font-size: 0.9em;
+  }
+  .textActivado {
+    font-weight: bold;
+  }
+  #textInternetM {
+    color: #41a6d7;
+  }
+  .restricciones {
+    width: 80vw;
+    text-align: left;
+    margin: 10% auto;
+  }
+  .restricciones h5 {
+    font-size: 0.7em;
+  }
+  #textMb {
+    color: #7a3f91;
+    font-weight: bold;
   }
 }
