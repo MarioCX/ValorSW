@@ -300,4 +300,40 @@ footer {
     margin-bottom: 1px;
   }
   /* Header */
+  .headerImg h2 {
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  .midle h4 {
+    color: #973884;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  .divContainerImg {
+    font-size: 0.8em;
+    margin: 0 15px;
+  }
+  .divContainerImg img {
+    height: 30px;
+    width: auto;
+  }
+  .divContainerImg h5 {
+    font-size: 0.8em;
+  }
+  .boxBlue {
+    width: 80%;
+    background-color: #557abc;
+    color: white;
+    margin: 0 auto;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .boxBlue h2 {
+    font-size: 0.9em;
+  }
+  .adquiereSim h5{
+    font-size: 0.9em;
+  }
 }
