@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+.offcanvas-body {
+  color: #7a3f91;
+}
+.btn {
+  margin-right: 10px;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  background-color: #7a3f91;
+}
+.btn:hover {
+  color: white;
+  background-color: #557abc;
+}
+#logoH {
+  height: auto;
+  width: 200px;
+}
+nav {
+  box-shadow: 2px 2px 3px grey;
+}
+
+.nav-link:hover {
+  color: #7a3f91;
+}
+.dropdown-item:hover {
+  color: #7a3f91;
+}
+
+/* Contenedor con imagen static */
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  height: 150px;
+  /* background-image: url(./assets/Recursos/slide-fijo.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+.column-80 {
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  /* altura del contenedor */
+}
+
+.valor {
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 2px 4px grey;
+}
+
+.valor span:nth-child(1) {
+  color: #7a3f91;
+}
+
+.valor span:nth-child(2) {
+  color: #973884;
+}
+
+.valor span:nth-child(3) {
+  color: #557abc;
+}
+
+.valor span:nth-child(4) {
+  color: #41a6d7;
+}
+
+.column-20 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide a {
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  /* Evita que la imagen se salga del contenedor */
+}
+
+.slide img {
+  height: auto;
+  max-width: 100%;
+}
+
+.slide2 {
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  margin: 10px;
+}
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide2 img {
+  height: auto;
+  max-width: 80%;
+  margin-top: 20px;
+}
+.consultaSaldoContainer {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.consultaSaldo {
+  width: 85%;
+  height: 200px;
+  background-color: #7a3f91;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.consultaSaldo h2 {
+  font-weight: bold;
+  font-size: 2.1em;
+  line-height: 200%;
+}
+.consultaSaldo h2 span {
+  color: #41a6d7;
+}
+.infoAdicional {
+  height: 30vh;
+}
+.consulta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.consulta ul {
+  width: 80%;
+  color: rgb(134, 134, 134);
+}
+.consulta li {
+  border-left: solid 5px #7a3f91;
+}
+.consulta ul li h5 {
+  background-color: rgba(182, 182, 182, 0.217);
+  font-size: 2.1em;
+  padding: 10px;
+}
+.consulta a {
+  text-decoration: none;
+}
+.textValor {
+  text-align: center;
+  font-size: 2em;
+  padding: 10px;
+  color: rgb(134, 134, 134);
+  text-decoration: underline 3px #7a3f91;
+}
+.textPolitica {
+  color: #557abc;
+  font-weight: bold;
+}
+.aqui {
+  color: #7a3f91;
+  margin: 0;
+}
+.textValorTe {
+  color: #557abc;
+}
+.textValorLe {
+  color: #41a6d7;
+}
+.textValorCo {
+  color: #7a3f91;
+}
+.textValorM {
+  color: #973884;
+}
+.imgContainerPorta {
+  border: solid red;
+}
+
+.sectionPrincipal {
+    display: flex;
+}
+.imgContainer {
+    width: 50%;
+    border: solid blue;
+}
+.imgContainer img {
+    border: solid red;
+    width: 50%;
+}
+.imgContainerRight {
+    width: 50%;
+    border: solid yellow;
+}
+/* Footer */
+footer {
+  background-color: #eee;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-footer {
+  height: 80px;
+  width: auto;
+}
+
+.column1 {
+  flex: 1;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.column1 p {
+  margin-top: 10px;
+}
+
+.column1 p strong {
+  text-align: center;
+}
+
+.social-btns {
+  margin-top: 50px;
+}
+
+.social-btns a {
+  margin: 0 10px;
+  color: #7a3f91;
+}
+
+.column {
+  flex: 1;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.column h3 {
+  margin-top: 0;
+  border: solid blacks;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+  margin: 10px auto;
+}
+
+.column ul li a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.column ul li a:hover {
+  color: #7a3f91;
+}
+
+/* Contenedor de botones flotantes */
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.button {
+  display: block;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.button img {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  
+  #logoH {
+    height: auto;
+    width: 150px;
+  }
+  .btn {
+    width: 40vw;
+    height: 40px;
+    margin-left: 5px;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+
+  .two-columns {
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .column-80 {
+    width: 100%;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 100px;
+    overflow: hidden;
+    /* altura del contenedor */
+  }
+
+  .valor {
+    font-size: 28px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px grey;
+  }
+
+  .column-20 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    height: 70px;
+    width: 70px;
+  }
+
+  .button img {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  footer {
+    background-color: #eee;
+    padding: 0 auto;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-footer {
+    height: 60px;
+    width: auto;
+  }
+
+  .column1 {
+    margin: 0 auto;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .column1 p {
+    margin-top: 10px;
+  }
+
+  .column {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .column:last-child {
+    margin-bottom: 1px;
+  }
+  .consultaSaldoContainer {
+  }
+  .consultaSaldo {
+    width: 85%;
+    height: 100px;
+    background-color: #7a3f91;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .consultaSaldo h2 {
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  .consultaSaldo h2 span {
+    color: #41a6d7;
+  }
+  .infoAdicional {
+    height: 40vh;
+  }
+  .consulta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .consulta ul {
+    width: 80%;
+    color: rgb(134, 134, 134);
+  }
+  .consulta li {
+    border-left: solid 5px #7a3f91;
+  }
+  .consulta ul li h5 {
+    background-color: rgba(182, 182, 182, 0.217);
+    font-size: 0.9em;
+    padding: 10px;
+  }
+  .consulta a {
+    text-decoration: none;
+  }
+  .textValor {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    color: rgb(134, 134, 134);
+    text-decoration: underline 3px #7a3f91;
+  }
+  .textPolitica {
+    color: #557abc;
+    font-weight: bold;
+  }
+  .aqui {
+    color: #7a3f91;
+    margin: 0;
+  }
+  .textValorTe {
+    color: #557abc;
+  }
+  .textValorLe {
+    color: #41a6d7;
+  }
+  .textValorCo {
+    color: #7a3f91;
+  }
+  .textValorM {
+    color: #973884;
+  }
+  .imgContainerPorta {
+    border: solid red;
+  }
+  
+}
