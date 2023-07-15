@@ -26,6 +26,7 @@ body {
   color: white;
   background-color: #557abc;
 }
+/* Nav */
 #logoH {
   height: auto;
   width: 200px;
@@ -40,6 +41,13 @@ nav {
 .dropdown-item:hover {
   color: #7a3f91;
 }
+#preguntasFrecuentes {
+  color: grey;
+}
+#preguntasFrecuentes:hover {
+  color: #7a3f91;
+}
+/* Nav */
 .paquetes {
   height: 90vh;
 }
