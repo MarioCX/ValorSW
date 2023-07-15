@@ -37,7 +37,12 @@ nav {
 .dropdown-item:hover {
   color: #7a3f91;
 }
-
+#preguntasFrecuentes {
+  color: grey;
+}
+#preguntasFrecuentes:hover {
+  color: #7a3f91;
+}
 /* Contenedor con imagen static */
 .two-columns {
   display: flex;
@@ -190,12 +195,31 @@ nav {
   color: #7a3f91;
 }
 .textValorM {
-  color: #973884;
+  color: #9738844a;
 }
 .imgContainerPorta {
   border: solid red;
 }
-
+.mediosContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #973884;
+  color: white;
+  border-radius: 20px;
+}
+.mediosOficiales {
+  width: 50%;
+  text-align: center;
+}
+.tiktokContainer {
+  width: 50%;
+  border-radius: 20px;
+}
+.tiktokContainer blockquote {
+  border-radius: 20px;
+}
 
 /* Footer */
 footer {
