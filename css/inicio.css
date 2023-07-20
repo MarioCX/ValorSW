@@ -13,20 +13,29 @@ body {
 .offcanvas-body {
   color: #7a3f91;
 }
-.btn {
+
+.navbar-brand {
+  margin: 0 auto;
+}
+#buttonHamburguer {
+  background-color: #7a3f91;
+  width: 5%;
+  border: #7a3f91;
+}
+#btnCanvas {
   margin-right: 10px;
   border-radius: 0 0 10px 10px;
   color: white;
   background-color: #7a3f91;
 }
-.btn:hover {
+#btnCanvas:hover {
   color: white;
   background-color: #557abc;
 }
 /* Nav */
 #logoH {
   height: auto;
-  width: 200px;
+  width: 250px;
 }
 nav {
   box-shadow: 2px 2px 3px grey;
