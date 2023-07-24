@@ -26,18 +26,6 @@ body {
     border: #7a3f91;
 }
 
-#btnCanvas {
-    margin-right: 10px;
-    border-radius: 0 0 10px 10px;
-    color: white;
-    background-color: #7a3f91;
-}
-
-#btnCanvas:hover {
-    color: white;
-    background-color: #557abc;
-}
-
 /* Nav */
 #logoH {
     height: auto;
@@ -52,22 +40,10 @@ nav {
     color: #7a3f91;
 }
 
-.dropdown-item:hover {
-    color: #7a3f91;
-}
-
-#preguntasFrecuentes {
-    color: grey;
-}
-
-#preguntasFrecuentes:hover {
-    color: #7a3f91;
-}
-
 /* Nav */
 
 /* Contenedor con imagen static */
-.two-columns {
+.firstSection {
     width: 100vw;
     height: 60vh;
     display: flex;
@@ -87,7 +63,7 @@ nav {
 .valor {
     font-size: 48px;
     text-align: center;
-    text-shadow: 2px 2px 4px grey;
+    text-shadow: 2px 2px 4px rgb(46, 45, 45);
 }
 
 .valor span:nth-child(1) {
@@ -106,47 +82,9 @@ nav {
     color: #41a6d7;
 }
 
-.column-20 {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .slide {
     width: 100vw;
     margin: 50px 0;
-}
-
-.slide a {
-    width: auto;
-    height: 100%;
-    overflow: hidden;
-    /* Evita que la imagen se salga del contenedor */
-}
-
-.slide img {
-    height: auto;
-    max-width: 100%;
-}
-
-.slide2 {
-    width: auto;
-    height: 100%;
-    overflow: hidden;
-    margin: 10px;
-}
-
-.imgContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slide2 img {
-    height: auto;
-    max-width: 80%;
-    margin-top: 20px;
 }
 
 .nuestrosServicios {
@@ -157,28 +95,11 @@ nav {
     color: white;
     overflow: hidden;
 }
-
 .serviciosContainer {
-    width: 100%;
-    height: auto;
-    border: solid red;
     display: flex;
 }
 
-.imgServiciosContainer {
-    width: 30%;
-    height: auto;
-    margin: 0 auto;
-    border: solid blue;
-}
-.imgServiciosContainer img {
-    width: 95%;
-    height: 300px;
-}
-.imgServiciosContainer button {
-    margin: 0 auto;
-    width: 200px;
-}
+
 .consultaSaldoContainer {
     margin: 20px 0;
     display: flex;
