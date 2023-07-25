@@ -13,58 +13,61 @@
 
     <link rel="stylesheet" href="/css/preguntas-frecuentes.css">
 </head>
+
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="Inicio.html"><img id="logoH" src="./assets/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 1500px;">
+            <a class="navbar-brand" href="inicio.html"><img id="logoH" src="./assets/logo.png" alt=""></a>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://valortelecom.homeip.net/inicios.php" target="_blank">Mi
-                            cuenta</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/portabilidad.html">Portabilidad</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="telefonia-movil.html">Telefonía</a></li>
-                            <li><a class="dropdown-item" href="internet-movil.html">Internet móvil</a></li>
-                            <li><a class="dropdown-item" href="internet-en-casa.html">Internet en casa</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">App Móvil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Recargas</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                    <a class="nav-link disabled">Link</a>
-                  </li> -->
-                </ul>
-                <span class="navbar-text">
-                    <a href="preguntas-frecuentes.html" id="preguntasFrecuentes">Preguntas frecuentes</a>
-                </span>
-                <!-- <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
-            </div>
+            <button class="btn btn-primary" id="buttonHamburguer" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fas fa-bars"></i></button>
         </div>
     </nav>
 </header>
 
 <body>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Menú</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Inicio</h5>
+                        <!-- <small>3 days ago</small> -->
+                    </div>
+                    <p class="mb-1">Some placeholder content in a paragraph.</p>
+                    <small>And some small print.</small>
+                </a>
+                <a href="telefonia-movil.html" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Telefonía</h5>
+                        <!-- <small class="text-body-secondary">3 days ago</small> -->
+                    </div>
+                    <p class="mb-1">Comunícate con la tecnología 4.5G LTE</p>
+                    <small class="text-body-secondary">Trae tu número con nosotros</small>
+                </a>
+                <a href="internet-movil.html" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Internet móvil</h5>
+                        <!-- <small class="text-body-secondary">3 days ago</small> -->
+                    </div>
+                    <p class="mb-1">Comparte Internet con tu módem hasta en 15 dispositivos.</p>
+                    <small class="text-body-secondary">Si ya cuentas tu módem adquiere tu SIM.</small>
+                </a>
+                <a href="internet-en-casa.html" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Internet en casa</h5>
+                        <!-- <small class="text-body-secondary">3 days ago</small> -->
+                    </div>
+                    <p class="mb-1">Navega con la cobertura garantizada que te ofrece Valor Telecom</p>
+                    <small class="text-body-secondary">Valida la cobertura disponible en tu zona.</small>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"
             aria-controls="offcanvasTop">

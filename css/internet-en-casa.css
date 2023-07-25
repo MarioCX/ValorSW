@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -10,24 +11,27 @@ body {
   font-family: Arial, sans-serif;
   width: 100%;
 }
+
 .offcanvas-body {
   color: #7a3f91;
 }
-.btn {
-  margin-right: 10px;
-  border-radius: 0 0 10px 10px;
-  color: white;
+
+.navbar-brand {
+  margin: 0 auto;
+}
+
+#buttonHamburguer {
   background-color: #7a3f91;
+  width: 5%;
+  border: #7a3f91;
 }
-.btn:hover {
-  color: white;
-  background-color: #557abc;
-}
+
 /* Nav */
 #logoH {
   height: auto;
-  width: 200px;
+  width: 250px;
 }
+
 nav {
   box-shadow: 2px 2px 3px grey;
 }
@@ -35,15 +39,7 @@ nav {
 .nav-link:hover {
   color: #7a3f91;
 }
-.dropdown-item:hover {
-  color: #7a3f91;
-}
-#preguntasFrecuentes {
-  color: grey;
-}
-#preguntasFrecuentes:hover {
-  color: #7a3f91;
-}
+
 /* Nav */
 
 .sectionPrincipal {
@@ -54,19 +50,22 @@ nav {
   border: solid grey;
   border-radius: 20px;
 }
+
 .imgContainer {
   width: 50%;
   display: flex;
 }
 
-.imgContainer img{
+.imgContainer img {
   width: 55%;
   height: auto;
   margin: 0 auto;
 }
+
 .imgContainerRight {
   width: 50%;
 }
+
 .emojiContainer {
   display: flex;
   justify-content: center;
@@ -75,15 +74,18 @@ nav {
   text-align: center;
   border: solid black;
   padding: 10px;
-  border-radius: 20px ;
+  border-radius: 20px;
 }
+
 .emojiContainer img {
   width: 20%;
 }
+
 .emojiContainer div {
   font-weight: bold;
   width: 80%;
 }
+
 .emojiContainer div h4 {
   color: #7a3f91;
   font-weight: bold;
@@ -95,28 +97,34 @@ nav {
   margin: 50px 0;
   text-align: center;
 }
+
 .consulta {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
-.consulta ul {  
+
+.consulta ul {
   width: 90%;
   color: rgb(134, 134, 134);
 }
+
 .consulta li {
   border-left: solid 5px #7a3f91;
 }
+
 .consulta ul li h5 {
   background-color: rgba(182, 182, 182, 0.217);
   font-size: 2.1em;
   padding: 10px;
 }
+
 .textPolitica {
   color: #557abc;
   font-weight: bold;
 }
+
 .listaPasos {
   width: 100%;
   margin: 50px 0;
@@ -125,28 +133,34 @@ nav {
   justify-content: center;
   font-size: 1.5em;
 }
+
 .listaPasos ol {
   width: 70%;
-  
+
 }
+
 #buscar {
   color: #7a3f91;
   font-weight: bold;
 }
+
 #comprobar {
   color: #557abc;
   font-weight: bold;
 }
+
 .frame {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center ;
+  justify-content: center;
 }
+
 #mapaCobertura {
   width: 80%;
   height: 80vh;
 }
+
 .modemSection {
   width: 100vw;
   height: auto;
@@ -156,21 +170,26 @@ nav {
   overflow: hidden;
   padding: 10px;
 }
-.modemSection h2{
+
+.modemSection h2 {
   border-bottom: solid grey;
 }
+
 .modemContainer {
   width: 100%;
   height: auto;
   display: flex;
 }
+
 .imgModemContainer {
   width: 50%;
   height: auto;
 }
+
 .modem1 {
   width: 70%;
 }
+
 .infoModemContainer {
   width: 50%;
   height: auto;
@@ -178,13 +197,16 @@ nav {
   border-radius: 20px;
   text-align: center;
 }
+
 .infoModemContainer h3 {
   width: 80%;
   margin: 15% auto 0;
 }
+
 .infoModemContainer h3:hover {
   font-size: 2em;
 }
+
 .infoModemContainer ul {
   width: 80%;
   margin: 10% auto;
@@ -192,9 +214,11 @@ nav {
   list-style: none;
   line-height: 200%;
 }
+
 .infoModemContainer ul li:hover {
   font-size: 1.5em;
 }
+
 /* .modem1:hover {
   display: none;
 .modem2 {
@@ -204,9 +228,11 @@ nav {
 #textServicio {
   color: #7a3f91;
 }
+
 .modem2 {
   display: none;
 }
+
 .paquetes {
   width: 100vw;
   height: auto;
@@ -214,22 +240,27 @@ nav {
   text-align: center;
   padding: 2%;
 }
+
 #textPromo {
   color: grey;
   font-weight: bold;
 }
+
 #textPaquetes {
   color: #973884;
   font-weight: bold;
 }
+
 #textModem {
   color: #557abc;
   font-weight: bold;
 }
+
 #textValor {
   color: grey;
   font-weight: bold;
 }
+
 .valor {
   font-weight: bold;
 }
@@ -249,15 +280,18 @@ nav {
 .valor span:nth-child(4) {
   color: #41a6d7;
 }
+
 #textInternet {
-  margin:50px 0;
+  margin: 50px 0;
   color: #973884;
   font-weight: bold;
 }
+
 .accordion {
   width: 80vw;
   margin: 0 auto;
 }
+
 .imgVelocidadContainer {
   padding: 2%;
   width: 100%;
@@ -265,6 +299,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .containerImgVelocidad {
   width: 100%;
   height: auto;
@@ -272,20 +307,24 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .containerImgVelocidad img {
   width: 30%;
   transition: 0.5s;
 }
+
 .containerImgVelocidad img:hover {
   width: 33%;
   transition: 1s;
 }
+
 .restricciones {
   width: 100%;
   text-align: left;
   margin: 200px 0 0 0;
   font-size: 0.9em;
 }
+
 /* Footer */
 footer {
   background-color: #eee;
@@ -298,6 +337,7 @@ footer {
   height: 80px;
   width: auto;
 }
+
 .column1 {
   flex: 1;
   margin-right: 50px;
@@ -395,16 +435,16 @@ footer {
 }
 
 @media (max-width: 768px) {
-  
+
   #logoH {
     height: auto;
-    width: 150px;
+    width: 200px;
   }
-  .btn {
-    width: 40vw;
-    height: 40px;
-    margin-left: 5px;
+
+  #buttonHamburguer {
+    width: 15%;
   }
+
   .carousel-indicators {
     display: none;
   }
@@ -452,128 +492,161 @@ footer {
     height: auto;
     border-radius: 50%;
   }
+
   .sectionPrincipal {
     display: block;
   }
+
   .imgContainer {
     width: 100%;
   }
+
   .imgContainerRight {
     display: flex;
     width: 100vw;
   }
+
   .emojiContainer {
     width: 30vw;
     margin: 10px auto;
     display: block;
     padding: 0;
   }
+
   .emojiContainer img {
     margin: 0 auto;
     width: 70%;
   }
+
   .emojiContainer h4 {
     margin: 0;
     width: 100%;
     text-align: center;
     font-size: 0.7em;
   }
+
   .textContainer {
     text-align: center;
     margin: 0 auto;
   }
+
   .emojiContainer h5 {
     font-size: 0.7em;
     text-align: center;
     margin: 0;
   }
-  
+
   .infoAdicional {
     height: 100vh;
   }
+
   .consulta {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
   }
+
   .consulta ul {
     width: 80%;
     color: rgb(134, 134, 134);
   }
+
   .consulta li {
     border-left: solid 5px #7a3f91;
   }
+
   .consulta ul li h5 {
     background-color: rgba(182, 182, 182, 0.217);
     font-size: 0.9em;
     padding: 10px;
-  } 
+  }
+
   .listaPasos {
     font-size: 0.9em;
   }
-  .frame {
-  }
+
+  .frame {}
+
   #mapaCobertura {
     width: 90%;
     height: 50vh;
   }
+
   .modemSection {
     display: block;
   }
-  .modemSection h2{
+
+  .modemSection h2 {
     font-size: 0.9em;
   }
+
   .modemContainer {
     display: block;
   }
+
   .imgModemContainer {
     width: 100%;
   }
+
   .infoModemContainer {
     width: 100%;
     font-size: 0.9em;
   }
+
   .infoModemContainer h3 {
     font-size: 1.5em;
   }
+
   .paquetes {
     margin: 30px 0 0 0;
   }
+
   #textPromo {
     font-size: 0.9em;
   }
+
   .paquetes h5 {
     font-size: 0.9em;
   }
+
   #textValor {
     font-size: 0.9em;
   }
+
   .valor {
     font-size: 0.9em;
   }
+
   #textInternet {
     font-size: 1.2em;
   }
+
   #accordionFlushExample {
-    width: 95%; 
+    width: 95%;
   }
+
   .containerImgVelocidad1 img {
     width: 50%;
   }
+
   .containerImgVelocidad2 img {
     width: 33%;
   }
+
   .containerImgVelocidad3 img {
     width: 60%;
   }
+
   .restricciones {
     margin: 30px 0;
   }
-  .restricciones p{
+
+  .restricciones p {
     font-size: 0.9em;
   }
-/* FOOTER */
+
+  /* FOOTER */
   footer {
     background-color: #eee;
     padding: 0 auto;
@@ -581,12 +654,12 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  
+
   .logo-footer {
     height: 60px;
     width: auto;
   }
-  
+
   .column1 {
     margin: 0 auto;
     margin-bottom: 60px;
@@ -594,11 +667,11 @@ footer {
     justify-content: center;
     text-align: center;
   }
-  
+
   .column1 p {
     margin-top: 10px;
   }
-  
+
   .column {
     margin: 0 auto;
     margin-bottom: 40px;
@@ -607,6 +680,7 @@ footer {
     justify-content: center;
     text-align: center;
   }
+
   .column:last-child {
     margin-bottom: 1px;
   }

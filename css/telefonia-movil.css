@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -10,27 +11,27 @@ body {
   font-family: Arial, sans-serif;
   width: 100%;
 }
-#offcanvasTopLabel {
-  font-size: 0.9em;
-} 
+
 .offcanvas-body {
   color: #7a3f91;
 }
-.btn {
-  margin-right: 10px;
-  border-radius: 0 0 10px 10px;
-  color: white;
+
+.navbar-brand {
+  margin: 0 auto;
+}
+
+#buttonHamburguer {
   background-color: #7a3f91;
+  width: 5%;
+  border: #7a3f91;
 }
-.btn::selection {
-  color: white;
-  background-color: #557abc;
-}
+
 /* Nav */
 #logoH {
   height: auto;
-  width: 200px;
+  width: 250px;
 }
+
 nav {
   box-shadow: 2px 2px 3px grey;
 }
@@ -38,24 +39,19 @@ nav {
 .nav-link:hover {
   color: #7a3f91;
 }
-.dropdown-item:hover {
-  color: #7a3f91;
-}
-#preguntasFrecuentes {
-  color: grey;
-}
-#preguntasFrecuentes:hover {
-  color: #7a3f91;
-}
+
 /* Nav */
+
 .paquetes {
   height: 90vh;
 }
+
 .encabezado {
   color: #7a3f91;
   font-weight: bold;
   margin-left: 10px;
 }
+
 .sliderContainer {
   height: 80%;
   display: flex;
@@ -64,6 +60,7 @@ nav {
   box-shadow: 2px 2px 3px grey;
   padding: 10px 0;
 }
+
 /* CSS para slider */
 .descript {
   text-align: center;
@@ -73,23 +70,28 @@ nav {
 .slide {
   width: 40%;
 }
+
 .carousel-inner {
   height: 90%;
   width: 60%;
   margin: 0 auto;
 }
-.carousel-inner img { 
+
+.carousel-inner img {
   margin: 0 auto;
 }
+
 .d-block {
   height: auto;
   width: 250px;
 }
+
 /*  */
 
 .imgPaquetes {
   height: 90%;
 }
+
 .textContainer {
   width: 30%;
   display: flex;
@@ -97,72 +99,91 @@ nav {
   align-items: center;
   text-align: center;
 }
+
 .lte {
   color: #557abc;
   font-weight: bold;
 }
+
 .textValor {
   font-weight: bold;
 }
+
 .valor {
   color: grey;
 }
+
 .te {
   color: #557abc;
 }
+
 .le {
   color: #41a6d7;
 }
+
 .co {
   color: #7a3f91;
 }
+
 .m {
   color: #973884;
 }
+
 .validacion {
   background-color: #557abc;
   padding: 10px;
 }
+
 .imgPaquetesActivacion {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .imgPaquetesActivacion img {
   width: 20%;
   margin: 10px;
 }
+
 .accordion {
   text-align: center;
 }
+
 .infoAdicional {
   height: 30vh;
 }
+
 .consulta {
   display: flex;
   justify-content: center;
 }
+
 .consulta ul {
   width: 50%;
   margin-top: 5%;
   color: rgb(71, 70, 70);
-  
+
 }
+
 .consulta li {
   border-left: solid 5px #7a3f91;
 }
+
 .consulta ul li h5 {
   background-color: rgba(128, 128, 128, 0.217);
   font-size: 1.8em;
   padding: 10px;
 }
+
 .textPolitica {
   color: #557abc;
 }
+
 .aqui {
   color: #7a3f91;
   margin: 0;
 }
+
 /* Footer */
 footer {
   background-color: #eee;
@@ -261,64 +282,74 @@ footer {
   text-decoration: none;
   box-shadow: 2px 2px 4px grey;
 }
+
 @media (max-width: 768px) {
-  /* Header */
-  .logo {
-    margin-left: 0;
+  #logoH {
+    height: auto;
+    width: 200px;
   }
-  /*  */
-  .btn {
-    width: 40vw;
-    height: 40px;
-    margin-left: 5px;
+
+  #buttonHamburguer {
+    width: 15%;
   }
+
   .paquetes {
     height: auto;
     width: 100vw;
     overflow: hidden;
   }
+
   .encabezado {
     width: 100%;
     text-align: center;
   }
+
   .sliderContainer {
     display: block;
     width: 100%;
   }
- .imgPaquetes {
-  height: 30vh;
-  margin: 0 20%;
- } 
- #carouselExampleDark {
-  width: 100%;
-  height: 400px;
-  text-align: center;
- }
- .textContainer {
-  width: 100%;
-  text-align: center;
- }
- .imgPaquetesActivacion img {
-  width: 40%;
-  margin: 1px;
-}
-.infoAdicional {
-  height: 20vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-}
-.consulta {
-  display: flex;
-  justify-content: center;
-}
-.consulta ul {
-  width: 90%;  
-}
 
-.consulta ul li h5 {
-  font-size: 0.9em;
-}
+  .imgPaquetes {
+    height: 30vh;
+    margin: 0 20%;
+  }
+
+  #carouselExampleDark {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+
+  .textContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .imgPaquetesActivacion img {
+    width: 40%;
+    margin: 1px;
+  }
+
+  .infoAdicional {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+
+  .consulta {
+    display: flex;
+    justify-content: center;
+  }
+
+  .consulta ul {
+    width: 90%;
+  }
+
+  .consulta ul li h5 {
+    font-size: 0.9em;
+  }
+
   /* Footer */
   footer {
     background-color: #eee;
@@ -328,10 +359,12 @@ footer {
     justify-content: center;
     width: 100vw;
   }
+
   .logo-footer {
     height: 60px;
     width: auto;
   }
+
   .column1 {
     margin: 0 auto;
     margin-bottom: 60px;
@@ -339,9 +372,11 @@ footer {
     justify-content: center;
     text-align: center;
   }
+
   .column1 p {
     margin-top: 10px;
   }
+
   .column {
     margin: 0 auto;
     margin-bottom: 40px;
@@ -350,6 +385,7 @@ footer {
     justify-content: center;
     text-align: center;
   }
+
   .column:last-child {
     margin-bottom: 1px;
   }

@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -10,24 +11,27 @@ body {
   font-family: Arial, sans-serif;
   width: 100%;
 }
+
 .offcanvas-body {
   color: #7a3f91;
 }
-#btnCanvas {
-  margin-right: 10px;
-  border-radius: 0 0 10px 10px;
-  color: white;
+
+.navbar-brand {
+  margin: 0 auto;
+}
+
+#buttonHamburguer {
   background-color: #7a3f91;
+  width: 5%;
+  border: #7a3f91;
 }
-.btn:hover {
-  color: white;
-  background-color: #557abc;
-}
+
 /* Nav */
 #logoH {
   height: auto;
-  width: 200px;
+  width: 250px;
 }
+
 nav {
   box-shadow: 2px 2px 3px grey;
 }
@@ -35,15 +39,7 @@ nav {
 .nav-link:hover {
   color: #7a3f91;
 }
-.dropdown-item:hover {
-  color: #7a3f91;
-}
-#preguntasFrecuentes {
-  color: grey;
-}
-#preguntasFrecuentes:hover {
-  color: #7a3f91;
-}
+
 /* Nav */
 .principal {
   display: flex;
@@ -54,15 +50,18 @@ nav {
   background-position: center;
   background-size: cover;
 }
+
 .imagePrincipal {
   height: 100%;
   width: 50%;
   margin-left: 10%;
 }
+
 .imagePrincipal img {
   height: 100%;
   margin: 0 40px;
 }
+
 .descripPrincipal {
   margin-right: 10%;
   width: 50%;
@@ -71,15 +70,19 @@ nav {
   color: white;
   padding: 20px 0;
 }
+
 .descripPrincipal h2 {
   font-weight: bold;
 }
+
 .descripPrincipal h3 {
   margin-top: 1%;
 }
+
 .descripPrincipal h4 {
   margin-top: 10px;
 }
+
 #buttonWhatsApp {
   margin-top: 1%;
   text-decoration: underline;
@@ -87,35 +90,44 @@ nav {
   width: 60%;
   height: 20%;
 }
+
 #valorTelecom {
   font-weight: bold;
   text-shadow: 2px 2px 4px rgb(93, 92, 92);
 }
+
 .textValorTe {
   color: #557abc;
 }
+
 .textValorLe {
   color: #41a6d7;
 }
+
 .textValorCo {
   color: #7a3f91;
 }
+
 .textValorM {
   color: #973884;
 }
+
 .secondary {
   text-align: center;
 }
+
 .secondary h2 {
   color: rgb(71, 70, 70);
   margin: 50px 0;
   font-weight: lighter;
   font-size: 2.5em;
 }
+
 .secondary img {
   width: 90%;
   margin: 0 0 20px 0;
 }
+
 .imgPaquetesContainer {
   height: 50vh;
   display: flex;
@@ -123,45 +135,55 @@ nav {
   justify-content: center;
   margin: 0;
 }
+
 .imgPaquetesContainer img {
   width: 20%;
   margin: 0 10px;
   border: solid #7a3f91;
   border-radius: 5px;
 }
+
 .consulta {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 50px 0;
 }
+
 .consulta ul {
   width: 70%;
   color: rgb(71, 70, 70);
 }
+
 .consulta li {
   border-left: solid 5px #7a3f91;
 }
+
 .consulta ul li h5 {
   background-color: rgba(128, 128, 128, 0.217);
   font-size: 1.8em;
   padding: 10px;
 }
+
 .consulta ul li div {
   background-color: rgba(128, 128, 128, 0.217);
   padding: 20px;
 }
+
 .consulta ul li div h2 {
   font-weight: bold;
   margin: 0;
 }
+
 .textPolitica {
   color: #557abc;
 }
+
 .aqui {
   color: #7a3f91;
   margin: 0;
 }
+
 .infoAd {
   margin: 10px 0;
   width: 100%;
@@ -170,31 +192,39 @@ nav {
   font-weight: bold;
   color: rgb(71, 70, 70);
 }
+
 .infoAd h2 {
   font-size: 2.3em;
   margin: 1% 0;
 }
+
 #paquetesRecarga {
   color: #7a3f91;
 }
+
 .textActivado {
   font-weight: bold;
 }
+
 #textInternetM {
   color: #41a6d7;
 }
+
 .restricciones {
   width: 80vw;
   text-align: left;
   margin: 10% auto;
 }
+
 .restricciones h5 {
   font-size: 0.9em;
 }
+
 #textMb {
   color: #7a3f91;
   font-weight: bold;
 }
+
 /* Footer */
 footer {
   background-color: #eee;
@@ -272,16 +302,17 @@ footer {
 .column ul li a:hover {
   color: #7a3f91;
 }
+
 @media (max-width: 768px) {
   #logoH {
     height: auto;
-    width: 150px;
+    width: 200px;
   }
-  .btn {
-    width: 40vw;
-    height: 40px;
-    margin-left: 5px;
+
+  #buttonHamburguer {
+    width: 15%;
   }
+
   .principal {
     display: flex;
     height: 25vh;
@@ -291,15 +322,18 @@ footer {
     background-position: center;
     background-size: cover;
   }
+
   .imagePrincipal {
     height: 100%;
     width: 50%;
     margin-left: 0;
   }
+
   .imagePrincipal img {
     height: 100%;
     margin: 0;
   }
+
   .descripPrincipal {
     margin-right: 1%;
     width: 50%;
@@ -308,18 +342,22 @@ footer {
     color: white;
     padding: 20px 0;
   }
+
   .descripPrincipal h2 {
     font-weight: bold;
     font-size: 0.7em;
   }
+
   .descripPrincipal h3 {
     margin-top: 1%;
     font-size: 0.7em;
   }
+
   .descripPrincipal h4 {
     margin-top: 10px;
     font-size: 0.7em;
   }
+
   #buttonWhatsApp {
     margin-top: 1%;
     text-decoration: underline;
@@ -327,39 +365,49 @@ footer {
     width: 60%;
     height: 20%;
   }
+
   #valorTelecom {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgb(93, 92, 92);
   }
+
   .textValorTe {
     color: #557abc;
   }
+
   .textValorLe {
     color: #41a6d7;
   }
+
   .textValorCo {
     color: #7a3f91;
   }
+
   .textValorM {
     color: #973884;
   }
+
   .button {
     height: 70px;
     width: 70px;
   }
+
   .secondary {
     text-align: center;
   }
+
   .secondary h2 {
     color: rgb(71, 70, 70);
     margin: 50px 0;
     font-weight: lighter;
     font-size: 1.5em;
   }
+
   .secondary img {
     width: 100%;
     margin: 0 0 10px 0;
   }
+
   .imgPaquetesContainer {
     height: 15vh;
     display: flex;
@@ -367,22 +415,26 @@ footer {
     justify-content: center;
     margin: 0;
   }
+
   .imgPaquetesContainer img {
     width: 25%;
     margin: 0 10px;
     border: solid #7a3f91;
     border-radius: 5px;
   }
+
   .consulta {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px 0;
   }
+
   .consulta ul {
     width: 90%;
     color: rgb(71, 70, 70);
   }
+
   .consulta ul li h5 {
     background-color: rgba(128, 128, 128, 0.217);
     font-size: 0.9em;
@@ -426,6 +478,7 @@ footer {
   .column:last-child {
     margin-bottom: 1px;
   }
+
   .infoAd {
     margin: 10px 0;
     width: 100%;
@@ -435,33 +488,42 @@ footer {
     font-weight: bold;
     color: rgb(71, 70, 70);
   }
+
   .infoAd h2 {
     font-size: 1.3em;
     margin: 1% 0;
   }
+
   .infoAd h3 {
     font-size: 0.9em;
   }
+
   .infoAd h4 {
     font-size: 0.9em;
   }
+
   .consulta h2 {
     font-size: 0.9em;
   }
+
   .textActivado {
     font-weight: bold;
   }
+
   #textInternetM {
     color: #41a6d7;
   }
+
   .restricciones {
     width: 80vw;
     text-align: left;
     margin: 10% auto;
   }
+
   .restricciones h5 {
     font-size: 0.7em;
   }
+
   #textMb {
     color: #7a3f91;
     font-weight: bold;

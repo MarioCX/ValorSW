@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -14,21 +15,23 @@ body {
 .offcanvas-body {
   color: #7a3f91;
 }
-.btn {
-  margin-right: 10px;
-  border-radius: 0 0 10px 10px;
-  color: white;
+
+.navbar-brand {
+  margin: 0 auto;
+}
+
+#buttonHamburguer {
   background-color: #7a3f91;
+  width: 5%;
+  border: #7a3f91;
 }
-.btn:hover {
-  color: white;
-  background-color: #557abc;
-}
+
 /* Nav */
 #logoH {
   height: auto;
-  width: 200px;
+  width: 250px;
 }
+
 nav {
   box-shadow: 2px 2px 3px grey;
 }
@@ -36,15 +39,7 @@ nav {
 .nav-link:hover {
   color: #7a3f91;
 }
-.dropdown-item:hover {
-  color: #7a3f91;
-}
-#preguntasFrecuentes {
-  color: grey;
-}
-#preguntasFrecuentes:hover {
-  color: #7a3f91;
-}
+
 /* Nav */
 
 .headerImg {
@@ -53,38 +48,49 @@ nav {
   text-align: center;
   font-weight: bold;
 }
+
 .headerImg img {
   width: 100vw;
   margin: 0 0 50px 0;
 }
+
 .headerImg h2 {
   font-weight: bold;
 }
+
 #textCuatroG {
   color: #557abc;
 }
+
 .textValor {
   color: grey;
 }
+
 .textValorTe {
   color: #557abc;
 }
+
 .textValorLe {
   color: #41a6d7;
 }
+
 .textValorCo {
   color: #7a3f91;
 }
+
 .textValorM {
   color: #973884;
 }
+
 .midle {
   text-align: center;
 }
+
 .midle h4 {
   color: #973884;
   font-weight: bold;
 }
+
 .midleImgContainer {
   width: 80vw;
   margin: 50px auto;
@@ -92,16 +98,20 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .midleImgContainer div {
   width: 33%;
 }
+
 .midleImgContainer img {
   margin: 0 20px;
   width: 20%;
 }
+
 .divContainerImg h4 {
   color: #7a3f91;
 }
+
 .boxBlue {
   width: 60%;
   background-color: #557abc;
@@ -112,22 +122,27 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .boxBlue h2 {
   font-size: 2.9em;
 }
+
 .adquiereSim {
   margin: 50px 0;
   text-align: center;
 }
+
 .adquiereSim h5 {
   margin: 20px 0;
 }
+
 /* Frame */
 .frame {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .frame iframe {
   width: 50%;
   height: 520px;
@@ -217,13 +232,13 @@ footer {
 @media (max-width: 768px) {
   #logoH {
     height: auto;
-    width: 150px;
+    width: 200px;
   }
-  .btn {
-    width: 40vw;
-    height: 40px;
-    margin-left: 5px;
+
+  #buttonHamburguer {
+    width: 15%;
   }
+
   .frame iframe {
     width: 100%;
     height: 520px;
@@ -237,10 +252,12 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
   .logo-footer {
     height: 60px;
     width: auto;
   }
+
   .column1 {
     margin: 0 auto;
     margin-bottom: 60px;
@@ -248,9 +265,11 @@ footer {
     justify-content: center;
     text-align: center;
   }
+
   .column1 p {
     margin-top: 10px;
   }
+
   .column {
     margin: 0 auto;
     margin-bottom: 40px;
@@ -259,30 +278,37 @@ footer {
     justify-content: center;
     text-align: center;
   }
+
   .column:last-child {
     margin-bottom: 1px;
   }
+
   /* Header */
   .headerImg h2 {
     font-weight: bold;
     font-size: 0.9em;
   }
+
   .midle h4 {
     color: #973884;
     font-weight: bold;
     font-size: 0.9em;
   }
+
   .divContainerImg {
     font-size: 0.8em;
     margin: 0 15px;
   }
+
   .divContainerImg img {
     height: 30px;
     width: auto;
   }
+
   .divContainerImg h5 {
     font-size: 0.8em;
   }
+
   .boxBlue {
     width: 80%;
     background-color: #557abc;
@@ -293,10 +319,12 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
   .boxBlue h2 {
     font-size: 0.9em;
   }
-  .adquiereSim h5{
+
+  .adquiereSim h5 {
     font-size: 0.9em;
   }
 }
