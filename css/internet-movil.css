@@ -16,6 +16,11 @@ body {
   color: #7a3f91;
 }
 
+.offcanvas {
+  background-color: #973884;
+  color: white;
+}
+
 .navbar-brand {
   margin: 0 auto;
 }
@@ -41,6 +46,7 @@ nav {
 }
 
 /* Nav */
+
 .principal {
   display: flex;
   height: 55vh;

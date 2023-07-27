@@ -55,7 +55,9 @@ nav {
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: grey;
+  background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)), url(../assets/Recursos/mesh-gradient.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .column-80 {
@@ -63,6 +65,7 @@ nav {
   height: auto;
   font-weight: bold;
   text-align: center;
+  text-shadow: 2px 2px 4px black;
 }
 
 .valor {
@@ -89,7 +92,7 @@ nav {
 
 .slide {
   width: 100vw;
-  margin: 50px 0;
+  margin:0 0 50px 0;
 }
 
 .nuestrosServicios {
